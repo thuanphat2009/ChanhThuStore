@@ -168,7 +168,8 @@
  .custom-select-box{
      float: left;
      width: 95px;
-     margin-right: 10px;
+     margin-right: 16px;
+     margin-top: 15px;
 }
 .custom-select-box .form-control{
      background: none;
@@ -233,6 +234,7 @@
      font-size: 13px;
      padding: 2px 15px;
      font-family: 'Poppins', sans-serif;
+     margin-top: 14px;
 }
  .offer-box li {
      font-weight: 600;
@@ -241,6 +243,7 @@
      margin-right: 15px;
      color: #b0b435;
      font-size: 20px;
+     
 }
  .our-link{
      float: left;
@@ -253,23 +256,28 @@
 }
  .our-link ul{
      line-height: 30px;
+     margin-left: -11px;
 }
  .our-link ul li a{
      color: #ffffff;
      font-weight: 700;
      text-transform: uppercase;
      font-size: 14px;
-}
+ }
+ .our-link ul li i{
+     margin-right: 10px;
+ }
  .our-link ul li a:hover{
      color: #b0b435;
 }
  .our-link ul li:last-child{
      border: none;
 }
-.login-box{
+.login-box {
     float: right;
     width: 120px;
     margin-left: 20px;
+    margin-top: 15px;
 }
 
 .login-box .form-control{
@@ -618,6 +626,7 @@
 }
 .custom-select-box .dropdown-item{
 	padding: 5px 10px;
+    
 }
  .btn-cart{
 }
@@ -1294,6 +1303,9 @@
 }
 .list-time{
 	margin-top: 15px;
+}
+.list-time li >span{
+    margin-left: 10px;
 }
 .footer-top-box .list-time li{
 	color: #ffffff;
