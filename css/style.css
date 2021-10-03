@@ -1287,6 +1287,9 @@
 .footer-top-box{
 	margin-bottom: 30px;
 }
+.footer-top-box > ul{
+	margin-top: 16px;
+}
 .footer-top-box h3{
 	color: #ffffff;
 	position: relative;
@@ -1416,6 +1419,9 @@
  .footer-link ul li {
      margin-right: 5px;
 }
+.footer-link ul {
+    margin-left: -12px;
+}
  .footer-link ul li a {
      color: #ffffff;
      text-align: left;
@@ -1429,7 +1435,7 @@
      -o-transition: all .3s ease-in-out;
      -ms-transition: all .3s ease-in-out;
 }
- .footer-link ul li a::before {
+ /* .footer-link ul li a::before {
      font-family: FontAwesome;
      content: "\f105";
      position: absolute;
@@ -1441,7 +1447,7 @@
      -moz-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
      -ms-transition: all .3s ease-in-out;
-}
+} */
  .footer-link ul li a:hover::before {
      left: 5px;
 }
@@ -1514,7 +1520,7 @@
 }
 /*------------------------------------------------------------------ All Pages -------------------------------------------------------------------*/
  .all-title-box{
-     background: url("../images/all-bg-title.jpg") no-repeat center center;
+     background: url("../images/back1.jpg") no-repeat top center;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -ms-background-size: cover;
