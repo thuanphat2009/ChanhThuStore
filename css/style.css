@@ -2042,7 +2042,7 @@ ul.cart-list > li.total > .btn:hover {
     .dropdown-toggle
     .filter-option {
     padding-left: 15px;
-
+    }
  .list-group-tree .list-group-collapse .list-group > .list-group-item::before {
      position: absolute;
      top: 14px;
@@ -2860,14 +2860,15 @@ ul.cart-list > li.total > .btn:hover {
 .quantity-box input {
     width: 100%;
 }
-.price-box-bar {
-    margin-bottom: 30px;
-}
 .price-box-bar a {
     padding: 10px 20px;
     font-weight: 700;
     color: #ffffff;
     border: none;
+}
+.add-comp {
+    display: block;
+    margin-top: 14px;
 }
 .add-to-btn .add-comp {
     float: left;
