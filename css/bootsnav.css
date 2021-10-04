@@ -311,6 +311,7 @@ ul.cart-list > li.total > span{
     background-color: #010101;
     padding: 10px 0;
     display: none;
+    height: 60px;
 }
 
 .top-search input.form-control{
@@ -554,7 +555,7 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:
     
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a{
         padding: 10px 15px;
-        color: #6f6f6f;
+        color: #e9e9e9;
     }
     
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li:last-child > a{
